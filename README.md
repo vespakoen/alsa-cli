@@ -14,7 +14,9 @@ sudo git clone https://github.com/vespakoen/alsa-cli.git /usr/local/
 # use
 
 `./usr/local/alsa-cli/toggle_mute.sh` // mutes and unmutes all the channels
+
 `./usr/local/alsa-cli/volume_up.sh 2` // sets the volume to "old_volume + 2"
+
 `./usr/local/alsa-cli/volume_down.sh 2` // sets the volume to "old_volume - 2"
 
 # internals
