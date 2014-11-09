@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # takes a volume level from 0 to 100, inclusive, as command line argument
-# example use: ./path/to/alsactrl/set-volume.sh 80
+# example use: ./path/to/alsactrl/set.sh 80
 # make sure the scripts are executable: sudo chmod +x ./path/to/alsactrl/*.sh
 
 volume=$1

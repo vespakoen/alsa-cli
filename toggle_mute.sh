@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # toggles everything on and off
-# example use: ./path/to/alsactrl/toggle_mute.sh
-# make sure the scripts are executable: sudo chmod +x ./path/to/alsactrl/*.sh
+# example use: ./path/to/alsa-cli/toggle_mute.sh
+# make sure the scripts are executable: sudo chmod +x ./path/to/alsa-cli/*.sh
 
 current_volume=`cat db/current_volume`
 muted=`cat db/is_muted`
